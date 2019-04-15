@@ -1121,12 +1121,20 @@ form label {
   margin-left: 5px;
 }
 .couple-half .desc-groom {
-  padding-right: 180px;
+  padding-right: 80px;
   text-align: right;
 }
 .couple-half .desc-bride {
-  padding-left: 180px;
+  padding-left: 80px;
   text-align: left;
+
+}
+
+.desc-bride, .desc-groom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
